@@ -1,91 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<title>FidelisFactory @ Github</title>
 	
 	<link rel="stylesheet" href="css/bootstrap.css" />
 	<link rel="stylesheet" href="css/bootstrap-responsive.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
 		
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+		
 </head>
+
+
 <body>
+	
 	<!-- Titel -->
-	<h1 align="center">FidelisFactory OpenSource Projects
+	<h1 class="text-center">FidelisFactory OpenSource Projects
 	</h1>
 	
 	<div class="container">
 		<div class="row" align="justify">
 			<!-- Beschreibung -->
 			<div class="span12" id="intro">
-			 		 	
-			 	<p align="center">The sourcecode of our following projects is freely available to use and or change. 
+			 	<p class="text-center">The sourcecode of our following projects is freely available to use and or change. 
 			 	</p>
 			 	
-			 	<p align="center">However, we would love to get <a href="mailto:info@fidelisfactory.ch">feedback</a> and or a <a href="mailto:info@fidelisfactory.ch">heads up!</a>  
+			 	<p class="text-center">However, we would love to get <a href="mailto:info@fidelisfactory.ch">feedback</a> and or a <a href="mailto:info@fidelisfactory.ch">heads up!</a>  
 			 	</p>
 
 			</div>
 		</div>
 		
-		<hr>
+	<hr>
 		
 		<!-- Projekte -->
 		<div id="projects">
-		<div class="row">
-			<div class="span4">
-				<h3 align="center"><a href="http://github.com/fechu/SMLoginView" target="blank">SMLoginView</a>
-				</h3>
-				<div align="center">
-					<img src="smloginview/screenshot1.png">
-				</div>
-				<p align="center">SMLoginView allows you to easily create a customizable login view.
-				</p>
+			<div class="row">
+				<div class="span4">
+					<h3 class="text-center"><a href="http://github.com/fechu/SMLoginView" target="_blank">SMLoginView</a>
+					</h3>
+				
+					<div align="center">
+						<img src="smloginview/screenshot1.png">
+					</div>
+				
+					<p class="text-center">SMLoginView allows you to easily create a customizable login view.
+					</p>
 			
-				<div align="center">
-				<iframe src="github-btn.html?user=fechu&repo=SMLoginView&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="30px"></iframe>
-				</div>
+					<div align="center">
+						<iframe src="github-btn.html?user=fechu&repo=SMLoginView&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="30px"></iframe>
+					</div>
 					
 			</div>
+			
 			<div class="span4">
-				<h3 align="center"><a href="http://github.com/fechu/JSON-Webservice-Tester" target="blank">JSON WS Tester</a>
+				<h3 class="text-center"><a href="http://github.com/fechu/JSON-Webservice-Tester" target="_blank">JSON WS Tester</a>
 				</h3>
+				
 				<div align="center">
 					<img src="json-webservice-tester/logo.png">
 				</div>
-				<p align="center">A small and simple tool that helps testing JSON webservices.</p>
+				
+				<p class="text-center">A small and simple tool that helps testing JSON webservices.</p>
 				
 				<div align="center">
-				<iframe src="github-btn.html?user=fechu&repo=JSON-Webservice-Tester&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="30px"></iframe>
+					<iframe src="github-btn.html?user=fechu&repo=JSON-Webservice-Tester&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="30px"></iframe>
 				</div>
 				
 			</div>
+			
 			<div class="span4">
-				<h3 align="center"><a href="http://www.github.com/fechu/SMUpdateMessage" target="blank">SMUpdateMessage</a></h3>
+				<h3 class="text-center"><a href="http://www.github.com/fechu/SMUpdateMessage" target="_blank">SMUpdateMessage</a></h3>
+
 				<div align="center">
 					<img src="smupdatemessage/screenshot1.png">
 				</div>
-				<p align="center">SMUpdateMessage allows you to display notification like messages to your users.</p>
+
+				<p class="text-center">SMUpdateMessage allows you to display notification like messages to your users.</p>
 				
  				<div align="center">
- 				<iframe src="github-btn.html?user=fechu&repo=SMUpdateMessage&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="30px"></iframe>
+	 				<iframe src="github-btn.html?user=fechu&repo=SMUpdateMessage&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="30px"></iframe>
  				</div>
-				
-				
-				
+			
 			</div>
 		</div>
+	
 		<br>
 		
 		<!-- Footer -->
 		<hr>
-		<div class="span12">
-			<center><small><b>Copyright 2009 - today by <a href="http://www.fidelisfactory.ch">FidelisFactory</a></b></small></center>
+		
+		<h5 class="text-center">Copyright 2009 - today by <a href="http://www.fidelisfactory.ch">FidelisFactory</a></h5>
+		
+		
+		<!-- Link to trigger attributions modal -->
+		<h6 class="text-center"><small><em><a href="#myModal" data-toggle="modal">Attributions</a></small></em></h6>
+		 
+		<!-- Attributions modal -->
+		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  
+		  <div class="modal-header">
+		    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		    <h3 class="text-center" id="myModalLabel">Attributions</h3>
+		  </div>
+		  
+		  <div class="modal-body">
+		  
+		  	<p class="text-center">To create this page we used awesome code not written by us but by other great people:</p>
+		  	
+		  	<hr>
+		  
+		    <p class="text-center"><strong><a href="http://twitter.github.io/bootstrap/index.html" target="_blank">Twitter Bootstrap</a></strong>
+		    </p>
+		    <p class="text-center"> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>
+		    </p>
+		    <p class="text-center">under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>
+		    </p>
+		    
+		    <hr>
+		    
+		    <p class="text-center"><strong><a href="https://github.com/mdo/github-buttons" target="_blank">github-buttons</a></strong>
+		    </p>
+		    <p class="text-center"> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> 
+		    </p>
+		    <p class="text-center">under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>
+		    </p>
+		    
+		  </div>
+		  
+		  <div class="modal-footer">
+		    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		  </div>
+		
 		</div>
+		
+		
+		
 	</div>
 </body>
 </html>
