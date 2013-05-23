@@ -16,10 +16,47 @@ body {
 	font-size: 1.15em;
 }
 
-#projects a {
-	color: black;
+#copyright {
+	text-align: center;
 }
 
+#social {
+	text-align: center;
+	margin: 10px 0;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: inherit;
+	text-rendering: optimizelegibility;
+}
+
+@media only screen and (min-width: 768px) {
+    #copyright {
+    	text-align: left;
+    }
+    
+    #social {
+    	text-align: right;
+    }
+}
+
+
+.social-youtube {
+	color:#FF3333
+	}
+
+.social-twitter {
+	color:#4099FF
+	}
+
+.social-facebook {
+	color:#3B5998
+	}
+	
+.social-facebook a {
+	color:#3B5998
+	}
 
 /* font-face */
 @font-face {
